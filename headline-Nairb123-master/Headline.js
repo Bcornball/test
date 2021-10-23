@@ -30,10 +30,11 @@ const A = fontsize(6);
 function Headline() {
    let gw = GWindow(GWINDOW_WIDTH, GWINDOW_HEIGHT);
    let timer = undefined;
-    let msg = GLabel(("hello World".toUpperCase));
-  if(validateInput())"good"; {
-     let go = GWindow(A,B).toUpperCase();
 
+  if(validateInput())"good"; {
+
+        let msg = GLabel(("hello World".toUpperCase));
+        gw.add(msg);
    }
    // todo : Call the input validation function
    // todo : Set up GLabel object with an upper case version of the message, the specified font and font size
